@@ -1,6 +1,6 @@
-# annotate the parameters
+
 class PersonalInformation:
-    def __init__(self, first_name, last_name, ssn, phone_number, email, street_address, city, state, zipcode):  # constructor
+    def __init__(self, first_name, last_name, ssn, phone_number, email, street_address, city, state, zipcode):
         self.first_name = first_name
         self.last_name = last_name
         self._ssn = ssn
